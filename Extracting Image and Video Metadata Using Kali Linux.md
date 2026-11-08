@@ -8,9 +8,10 @@ Metadata analysis is important in cybersecurity and digital forensics because it
 ### Project Directory Structure
 Below is the organizational structure of this repository, showing the designated folders for images, video assets, and report logs:
 * `Extracting Image and Video Metadata Using Kali Linux.md` (Main Lab Report)
-* `img/` — Contains all screenshots and analyzed JPEG/PNG files
+* `img/` — Contains all analyzed JPEG files
 * `videos/` — Contains the MP4 video used for metadata analysis
 * `files/` — Contains TXT files and integrity logs
+* `screenshot/` -Contains the screenshots of the installation and version of the Exiftool
 
 ## 2.0 Installation of Exiftool
 Run the following commands on the kali linux to install the Exiftool as shown below
