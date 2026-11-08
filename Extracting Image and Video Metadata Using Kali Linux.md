@@ -5,6 +5,13 @@ Extracting Image and Video Metadata Using Kali Linux
 Metadata is data that provides information about other data. Digital files such as images, videos, and documents contain hidden metadata that stores information about the file's creation, modification, device used, location, and technical characteristics.
 Metadata analysis is important in cybersecurity and digital forensics because it helps investigators trace the origin of files, verify authenticity, and identify potential privacy risks associated with digital footprints.
 
+### Project Directory Structure
+Below is the organizational structure of this repository, showing the designated folders for images, video assets, and report logs:
+* `Extracting Image and Video Metadata Using Kali Linux.md` (Main Lab Report)
+* `img/` — Contains all screenshots and analyzed JPEG/PNG files
+* `videos/` — Contains the MP4 video used for metadata analysis
+* `files/` — Contains TXT files and integrity logs
+
 ## 2.0 Installation of Exiftool
 Run the following commands on the kali linux to install the Exiftool as shown below
 
