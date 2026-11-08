@@ -22,3 +22,27 @@ To verify the version run exiftool -ver
 The following information contains a detailed analysis from two images. 
 Two JPEG images were analyzed using ExifTool to extract hidden metadata layers.
 ### information from image one 
+
+## PNG analysis
+Unlike JPEGs, PNG files handle metadata differently and often store textual chunks (like software names) rather than extensive camera details. One PNG image was analyzed.
+### png image
+* **Command Used:** `exiftool image1.png`
+### png image 
+* **Command Used:** `exiftool image2.png`
+
+
+## GPS investigation
+Geotagging embeds Exchangeable Image File Format (EXIF) data containing latitude and longitude coordinates directly into an image when taken on GPS-enabled devices. This information is also available in the Metadata.
+* **Command Used:** `exiftool -gps:all photo1.jpg`
+exiftool -gps:all photo1.jpg
+
+
+##  Video analysis
+An MP4 video file from the `videos/` directory was analyzed to identify container-specific metadata such as structural codecs, duration, and track modifications.
+
+* **Command Used:** `exiftool sample_video.mp4`
+
+ ## Reflection 
+The extraction of metadata highlights severe security and privacy implications for individuals and organizations alike. Unintentionally publishing geotagged images exposes physical locations, daily routines, and home addresses to malicious actors, facilitating targeted social engineering or physical tracking. 
+
+From an enterprise standpoint, metadata leakage can inadvertently expose internal directory structures, usernames, software versions, and corporate network configurations. For defensive security practitioners, enforcing automated metadata stripping policies on public-facing platforms is an absolute necessity to prevent open-source intelligence (OSINT) exploitation.
