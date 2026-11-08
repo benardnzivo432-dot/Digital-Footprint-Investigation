@@ -18,4 +18,7 @@ sudo apt install libimage-exiftool-perl
 To verify the version run exiftool -ver
 ![Digital Footprint Investigation](screenshot/screen2.png)
 
-[View Project Files](files/)
+## Image analysis
+The following information contains a detailed analysis from two images. 
+Two JPEG images were analyzed using ExifTool to extract hidden metadata layers.
+### information from image one 
