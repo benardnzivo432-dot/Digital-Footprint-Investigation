@@ -38,19 +38,21 @@ Two JPEG images were analyzed using ExifTool to extract hidden metadata layers.
 Unlike JPEGs, PNG files handle metadata differently and often store textual chunks (like software names) rather than extensive camera details. One PNG image was analyzed.
 
 ### png image 
-* **Command Used:** `exiftool image2.png`
+* **Command Used:** `exiftool image3.png`
+  ![Digital Footprint Investigation](img/image3.png)
 
 
 ## 5.0 GPS investigation
 Geotagging embeds Exchangeable Image File Format (EXIF) data containing latitude and longitude coordinates directly into an image when taken on GPS-enabled devices. This information is also available in the Metadata.
-* **Command Used:** `exiftool -gps:all photo1.jpg`
-exiftool -gps:all photo1.jpg
+* **Command Used:** `exiftool -gps:all photo1.jpeg`
+  ![Digital Footprint Investigation](img/photo1.png)
 
 
 ## 6.0 Video analysis
 An MP4 video file from the `videos/` directory was analyzed to identify container-specific metadata such as structural codecs, duration, and track modifications.
 
 * **Command Used:** `exiftool sample_video.mp4`
+  ![Digital Footprint Investigation](videos/sample_video.mp4)
 
  ## 7.0 Reflection 
 The extraction of metadata highlights severe security and privacy implications for individuals and organizations alike. Unintentionally publishing geotagged images exposes physical locations, daily routines, and home addresses to malicious actors, facilitating targeted social engineering or physical tracking. 
