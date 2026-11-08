@@ -29,10 +29,11 @@ The following information contains a detailed analysis from two images.
 Two JPEG images were analyzed using ExifTool to extract hidden metadata layers.
 ### image one
 * **Command Used:** `exiftool image1.jpeg`
+  ![Digital Footprint Investigation](img/image1.png)
 
 ### image two
 * **Command Used:** `exiftool image2.jpeg`
-
+  ![Digital Footprint Investigation](img/image2.png)
 ## 4.0 PNG analysis
 Unlike JPEGs, PNG files handle metadata differently and often store textual chunks (like software names) rather than extensive camera details. One PNG image was analyzed.
 
