@@ -1,2 +1,7 @@
 # Digital-Footprint-Investigation
 Extracting Image and Video Metadata Using Kali Linux
+Introduction
+
+Metadata is data that provides information about other data. Digital files such as images, videos, and documents contain hidden metadata that stores information about the file's creation, modification, device used, location, and technical characteristics.
+
+Metadata analysis is important in cybersecurity and digital forensics because it helps investigators trace the origin of files, verify authenticity, and identify potential privacy risks associated with digital footprints.
