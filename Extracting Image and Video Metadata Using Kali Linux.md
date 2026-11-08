@@ -17,3 +17,5 @@ sudo apt install libimage-exiftool-perl
 
 To verify the version run exiftool -ver
 ![Digital Footprint Investigation](screenshot/screen2.png)
+
+[View Project Files](files/)
