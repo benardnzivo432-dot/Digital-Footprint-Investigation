@@ -39,7 +39,7 @@ Unlike JPEGs, PNG files handle metadata differently and often store textual chun
 
 ### png image 
 * **Command Used:** `exiftool image3.png`
-  ![Digital Footprint Investigation](img/image3 (1).png)
+  ![Digital Footprint Investigation](img/image3.png)
 
 
 ## 5.0 GPS investigation
