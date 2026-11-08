@@ -7,8 +7,10 @@ Metadata analysis is important in cybersecurity and digital forensics because it
 
 ## Installation of Exiftool
 Run the following commands on the kali linux to install the Exiftool as shown below
+
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ![Digital Footprint Investigation](img/image1.png)
 
 To verify the version run exiftool -ver
+![Digital Footprint Investigation](img/image2.png)
