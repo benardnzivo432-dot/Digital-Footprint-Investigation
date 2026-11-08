@@ -14,7 +14,7 @@ sudo apt install libimage-exiftool-perl
 
 
 To verify the version run exiftool -ver
-<img src="screenshot/screen2.png" alt="Digital Footprint Investigation" width="600">
+![Digital Footprint Investigation](screenshot/screen2.png)
 
 ## Image analysis
 The following information contains a detailed analysis from two images. 
