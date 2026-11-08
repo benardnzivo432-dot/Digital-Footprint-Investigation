@@ -10,10 +10,10 @@ Run the following commands on the kali linux to install the Exiftool as shown be
 
 sudo apt update
 sudo apt install libimage-exiftool-perl
-![Digital Footprint Investigation](screenshot/image1.png)
+![Digital Footprint Investigation](screenshot/screen1.png)
 
 
 
 
 To verify the version run exiftool -ver
-![Digital Footprint Investigation](screenshot/image2.png)
+![Digital Footprint Investigation](screenshot/screen2.png)
