@@ -52,7 +52,7 @@ Geotagging embeds Exchangeable Image File Format (EXIF) data containing latitude
 An MP4 video file from the `videos/` directory was analyzed to identify container-specific metadata such as structural codecs, duration, and track modifications.
 
 * **Command Used:** `exiftool sample_video.mp4`
-  ![Digital Footprint Investigation](videos/sample_video.mp4)
+  ![Digital Footprint Investigation](videos/sample_video.png)
 
  ## 7.0 Reflection 
 The extraction of metadata highlights severe security and privacy implications for individuals and organizations alike. Unintentionally publishing geotagged images exposes physical locations, daily routines, and home addresses to malicious actors, facilitating targeted social engineering or physical tracking. 
